@@ -81,7 +81,7 @@ I initially attempted to extract audio features (danceability, energy, tempo, et
 
 
 ## 🔗 Connect with Me  
-- **LinkedIn:** [[Your Profile Link]  ](https://www.linkedin.com/in/prathambusa15/)
-- **GitHub:** [[Your GitHub Link] ](https://github.com/prathambusa?tab=repositories) 
+- **LinkedIn:** [[My Profile Link]  ](https://www.linkedin.com/in/prathambusa15/)
+- **GitHub:** [[My GitHub Link] ](https://github.com/prathambusa?tab=repositories) 
 
 ---
