@@ -21,7 +21,7 @@ Ever wondered what your Spotify listening history reveals about you? This projec
 
 ---
 
-⚙️ Prerequisites
+## ⚙️ Prerequisites
 Before you start, ensure you have:
 
 ✅ A Spotify Developer Account – Sign up at Spotify for Developers
@@ -57,16 +57,16 @@ The extracted data includes track name, artist, album, popularity, explicit cont
 - Sorted tracks by listening time to track trends accurately.
 
 # Step 4: Data Visualization & Insights
-- ## Top Artists & Most Played Songs
+- Top Artists & Most Played Songs
 Identified top 10 artists based on play count.
 Visualized artist distribution using bar charts.
-- ## Listening Trends Over Time
+- Listening Trends Over Time
 Analyzed hourly listening trends to find peak hours of music consumption.
 Created a histogram to show the distribution of listening activity throughout the day.
-- ## Day-Wise Listening Patterns
+- Day-Wise Listening Patterns
 Identified which days of the week had the highest music engagement.
 Compared weekday vs. weekend listening behavior using bar plots.
-- ## Track Duration Analysis
+- Track Duration Analysis
 Analyzed the distribution of track durations in my listening history.
 Plotted a histogram to identify patterns in the types of songs I listen to (short bursts or longer tracks).
 
