@@ -24,9 +24,9 @@ Ever wondered what your Spotify listening history reveals about you? This projec
 ## ⚙️ Prerequisites
 Before you start, ensure you have:
 
-✅ A Spotify Developer Account – Sign up at Spotify for Developers
-✅ Python 3.x installed
-✅ The following Python libraries:
+- ✅ A Spotify Developer Account – Sign up at Spotify for Developers
+- ✅ Python 3.x installed
+- ✅ The following Python libraries:
 
 Spotipy (for API requests)
 Pandas (for data manipulation)
@@ -36,27 +36,27 @@ To install dependencies, run:
 ''pip install spotipy pandas matplotlib seaborn''
 
 
-🚀 Step-by-Step Implementation
+# 🚀 Step-by-Step Implementation
 
-# Step 1: Get Spotify API Credentials
+### Step 1: Get Spotify API Credentials
 - Log in to the Spotify Developer Dashboard.
 - Click on Create an App and note down:
 - Client ID
 - Client Secret
 - Set a redirect URI (e.g., http://localhost:9000/callback/).
 
-# Step 2: Authenticate and Fetch Data
+### Step 2: Authenticate and Fetch Data
 Spotify requires OAuth authentication to access user data.
 
 I used Spotipy, a Python wrapper for the Spotify API, to extract recently played tracks from my account.
 The extracted data includes track name, artist, album, popularity, explicit content, duration, and timestamp of when the track was played.
 
-# Step 3: Data Cleaning & Preprocessing
+### Step 3: Data Cleaning & Preprocessing
 - Converted timestamps into a datetime format for trend analysis.
 - Removed duplicate entries and handled missing values.
 - Sorted tracks by listening time to track trends accurately.
 
-# Step 4: Data Visualization & Insights
+### Step 4: Data Visualization & Insights
 - Top Artists & Most Played Songs
 Identified top 10 artists based on play count.
 Visualized artist distribution using bar charts.
@@ -70,7 +70,7 @@ Compared weekday vs. weekend listening behavior using bar plots.
 Analyzed the distribution of track durations in my listening history.
 Plotted a histogram to identify patterns in the types of songs I listen to (short bursts or longer tracks).
 
-# Step 5: Challenges & Workarounds
+### Step 5: Challenges & Workarounds
 I initially attempted to extract audio features (danceability, energy, tempo, etc.), but ran into Spotify API rate limits and authentication issues. Despite multiple workarounds, I had to pivot and focus on time-based and artist-based insights—a great lesson in real-world data adaptability.
 
 📊 Key Takeaways
